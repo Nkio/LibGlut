@@ -68,6 +68,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GLUTMANAGER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalOptions>/D "AGLUTCALLBACK_EXPORTS"  /D "ICALLBACK_EXPORTS" /D "ICALLBACKDISPLAY_EXPORTS" /D "GLUT_CALLBACK_DISPLAY_EXPORTS" /D "ICALLBACKMOUSE_EXPORTS" /D "GLUT_CALLBACK_MOUSE_EXPORTS" /D "GLUT_CALLBACK_RESHAPE_EXPORTS" /D "GLUT_CALLBACK_KEYBOARD_EXPORTS" /D "ICALLBACKRESHAPE_EXPORTS" /D "ICALLBACKKEYBOARD_EXPORTS" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Nkio\Documents\GitHub\LibGlut\GlutManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

@@ -70,7 +70,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Pro\Chine\First Semester\Computer Graphics\Projets\GlutManager\GlutManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Nkio\Documents\GitHub\LibGlut\GlutManager;D:\Pro\Chine\First Semester\Computer Graphics\Projets\GlutManager\GlutManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -100,12 +100,12 @@
     <ClCompile Include="TestReshape.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\GlutManager\GlutManager.vcxproj">
       <Project>{0600bd88-2803-45bc-b5c5-ad6dde851d7d}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
